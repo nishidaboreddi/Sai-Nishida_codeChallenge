@@ -1,0 +1,53 @@
+.App {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+.navbar {
+  border-bottom: 2px solid #0d6efd;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn {
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+  color: #6c757d;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+input, select, textarea {
+  border-radius: 0.5rem !important;
+  padding: 0.75rem 1rem !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1) !important;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
